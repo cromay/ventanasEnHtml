@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Popover Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="text-align:center;">
+
+<div class="container">
+  <h3>Ejemplo de Popover en Bootstrap</h3>
+  <a href="#" data-toggle="popover" title="Cabezera de Popover " data-content="Aquí irian los comentarios del popover">Pulsa aquí para ver el popover</a>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+<br><br><br><br>
+
+<a href="home.html"><img src="img/home.jpg"  title="Home" width="25%"/></a>
+</body>
+
+</html>
